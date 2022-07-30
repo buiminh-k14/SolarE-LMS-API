@@ -16,6 +16,14 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "y/my-library": [
+        "libs/my-library/src"
+      ],
+      "y/my-library/*": [
+        "libs/my-library/src/*"
+      ]
+    }
   }
 }
